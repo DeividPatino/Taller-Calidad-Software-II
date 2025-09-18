@@ -8,7 +8,7 @@ public class Login {
 
     public Login() {
         // Usuarios iniciales (puedes agregar más en tests si quieres)
-        usuarios.put("admin", "1234");
+        usuarios.put("admin", "123");
         usuarios.put("juan", "abcd");
     }
 
