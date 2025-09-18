@@ -8,7 +8,7 @@ public class LoginTest {
     @Test
     void testLoginCorrecto() {
         Login login = new Login();
-        assertTrue(login.autenticar("admin", "1234"));
+        assertTrue(login.autenticar("admin", "123"));
     }
 
     @Test
@@ -20,7 +20,7 @@ public class LoginTest {
     @Test
     void testUsuarioInexistente() {
         Login login = new Login();
-        assertFalse(login.autenticar("pepe", "1234"));
+        assertFalse(login.autenticar("pepe", "123"));
     }
 
     @Test
